@@ -8,6 +8,7 @@ import Rocket from "./../../components/Rocket";
 import './style.scss';
 
 
+
 const GET_ROCKET_INFO = gql`
 query GET_ROCKET_INFO($rocketId: ID!)
 {
